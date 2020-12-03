@@ -7,8 +7,34 @@
   </head>
   <body>
     <div id="root">
-      <h1>Hello world!</h1>
+      <h1> Registro de refugiados</h1>
+      <h2>Campamento Camboya II</h2>
     </div>
     <script src="index.js" type="module"></script>
   </body>
+  <label for="name-refugee">Nombre del refugiado:</label>
+    <input
+    type="name"
+    id="name-refugee"
+    place holder= 
+    name="name-refugee"
+    required
+    />
+        <p>
+          <label for="offset">Clave:</label>
+          <input type="number" id="offset" name="clave"
+       min="26" max="999">
+        </p>
+    <p>
+      <input
+      type="submit"
+      id="code"
+      value="Codificar"
+      />
+      <input
+      type="submit"
+      id="decode"
+      value="Decodificar"
+      />
+    </p>
 </html>
