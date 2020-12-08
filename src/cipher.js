@@ -4,9 +4,13 @@ const cipher = {
 
 export default cipher;
 
-const alphabet = ['A','B','C','D','E','F','G','H','I','J','K',
-                  'L','M','N','O','P','Q','R','S','T','U','V',
-                  'W','X','Y','Z']
 
-alphabet.shift ();
+output = [];
 
+function encode(string, offset){
+  for (let = i; i = value.length; i ++); {
+    AsciiLetter = value.charCodeAt(i); // para devolver el código ASCII del caracter en el índice proporcionado.
+    stringresult= ((AsciiLetter - 65 + offset) % 26) + 65; // devuelve cadena de caracteres con código ASCII
+    output[i]=stringresult
+  }
+}
