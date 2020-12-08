@@ -22,8 +22,22 @@ let offset = document.getElementById('offset').value;
 });
 
  document.getElementById('decode').addEventListener('click',function(){ //Se agrega un evento al botón id 'decode'
- let value = document.getElementById('name-refugee').value.toLowerCase(); //declaro la variable value, agrego al id 'name-refugge' que su contenido esté em minúsculas
- document.getElementById('result-refugee').textContent = value; //en 'result-refugee' obtener el texto contenido del value, o sea de la línea anterior
-  });
+ //let value = document.getElementById('name-refugee').value.toLowerCase(); //declaro la variable value, agrego al id 'name-refugge' que su contenido esté em minúsculas
+ //document.getElementById('result-refugee').textContent = value; //en 'result-refugee' obtener el texto contenido del value, o sea de la línea anterior
+
+ let stringTwo = document.getElementById('clave-refugee').value.toUpperCase();
+
+ let offset = document.getElementById('offset').value;
+
+ //decode (stringTwo, offset);
+  let outputTwo = [];
+  for (let i = 0; i < stringTwo.lenght; i ++) {
+   let asciiLetter = stringTwo.charCodeAt(i);
+   let stringTwoResult = (((asciiLetter + 65) - offset) % 26) - 65;
+   outputTwo[i] = stringTwoResult;
+ };
+  console.log(outputTwo);
+
+});
 
 //});
