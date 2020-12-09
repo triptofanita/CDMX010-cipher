@@ -1,10 +1,81 @@
+
+h1{
+    background-color: rgba(248, 250, 249, 0.979);
+    font-family: black, 'Franklin Gothic Medium', sans-serif;
+    margin: 0px auto;
+    border: 2px rgba(18, 21, 66, 0.979);
+    text-align: center; 
+    width: 50%;
+    height: 40px;
+}
+
+h2{
+    background-color: rgba(243, 247, 30, 0.979);
+    font-family: black,'Franklin Gothic Medium', sans-serif, bold;
+    margin: 0px auto;
+    border: 2px rgba(2, 4, 32, 0.979);
+    text-align: center; 
+    width: 50%;
+    height: 40px;
+}
+
 body{
-    background-color: rgba(24, 66, 50, 0.979);
+    background-color: rgba(18, 21, 66, 0.979);
     font-family: black,'Times New Roman', serif;
     text-align: center;
 }
-    
+
+#name-refugee{
+    background-color: rgba(248, 250, 249, 0.979);
+    font-family: black,'Franklin Gothic Medium', sans-serif, bold;
+    margin: 0px auto;
+    border: 2px rgba(0, 2, 24, 0.979);
+    text-align: center; 
+    width: 20%;
+    height: 30px;
+}
+
+#clave-refugee{
+    background-color: rgba(248, 250, 249, 0.979);
+    font-family: black,'Franklin Gothic Medium', sans-serif, bold;
+    margin: 0px auto;
+    border: 2px rgba(0, 2, 24, 0.979);
+    text-align: center; 
+    width: 20%;
+    height: 30px;
+}
+
+#offset{
+    background-color: rgba(248, 250, 249, 0.979);
+    font-family:'Franklin Gothic Medium', sans-serif, bold;
+    margin: 0px auto;
+    border: 5px rgba(0, 2, 24, 0.979);
+    text-align: center; 
+    width: 4%;
+    height: 25px;
+}
+
+#code{
+    background-color: rgba(91, 161, 10, 0.979);
+    font-family:'Franklin Gothic Medium', sans-serif, bold;
+    margin: 0px auto;
+    border: 5px rgba(0, 2, 24, 0.979);
+    text-align: center; 
+    width: 10%;
+    height: 25px;
+}
+
+#decode{
+    background-color: rgba(230, 70, 42, 0.979);
+    font-family:'Franklin Gothic Medium', sans-serif, bold;
+    margin: 0px auto;
+    border: 5px rgba(0, 2, 24, 0.979);
+    text-align: center; 
+    width: 10%;
+    height: 25px;
+}
+
 #result-refugee{
-    font-family: rgb(248, 245, 245), 'Times New Roman', serif;
+    font-family: rgb(248, 245, 245),'Franklin Gothic Medium', sans-serif, bold;
     text-align: center;
 }
