@@ -15,7 +15,7 @@ let offset = document.getElementById('offset').value;
   for (let i = 0; i < string.length; i ++) {
   let asciiLetter = string.charCodeAt(i); // para devolver el código ASCII del caracter en el índice proporcionado.
   let stringResult = (((asciiLetter - 65) + offset) % 26) + 65; // devuelve cadena de caracteres con código ASCII
-  output[i] = stringResult; 
+  output[i] = stringResult;
   };
   console.log(output);
   //document.getElementById('result-refugee').textContent = value; //en 'result-refugee' obtener el texto contenido del value, o sea de la línea anterior     
@@ -33,7 +33,7 @@ let offset = document.getElementById('offset').value;
   let outputTwo = [];
   for (let i = 0; i < stringTwo.lenght; i ++) {
    let asciiLetter = stringTwo.charCodeAt(i);
-   let stringTwoResult = (((asciiLetter + 65) - offset) % 26) - 65;
+   let stringTwoResult = (((asciiLetter - 65) + offset) % 26) + 65;
    outputTwo[i] = stringTwoResult;
  };
   console.log(outputTwo);
