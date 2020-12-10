@@ -25,19 +25,18 @@ let offset = document.getElementById('offset').value;
  //let value = document.getElementById('name-refugee').value.toLowerCase(); //declaro la variable value, agrego al id 'name-refugge' que su contenido esté em minúsculas
  //document.getElementById('result-refugee').textContent = value; //en 'result-refugee' obtener el texto contenido del value, o sea de la línea anterior
 
- let stringTwo = document.getElementById('clave-refugee').value.toUpperCase();
+ let string = document.getElementById('clave-refugee').value.toUpperCase();
 
  let offset = document.getElementById('offset').value;
 
- //decode (stringTwo, offset);
-  let outputTwo = [];
-  for (let i = 0; i < stringTwo.lenght; i ++) {
-   let asciiLetter = stringTwo.charCodeAt(i);
-   let stringTwoResult = (((asciiLetter + 65) - offset) % 26) + 65;
-   outputTwo[i] = stringTwoResult;
+ //decode (offset, string);
+  let output =[];
+  for (let i = 0; i < string.length; i ++) {
+   let asciiLetter = string.charCodeAt(i);
+   let stringResult = (((asciiLetter - 90) - offset) % 26) + 66;
+   output[i] = String.fromCharCode(stringResult);
  };
-  console.log(outputTwo);
-
+console.log(output);
 });
 
 //});

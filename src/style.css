@@ -1,22 +1,22 @@
 
-h1{
+#title{
     background-color: rgba(248, 250, 249, 0.979);
     font-family: black, 'Franklin Gothic Medium', sans-serif;
     margin: 0px auto;
     border: 2px rgba(18, 21, 66, 0.979);
     text-align: center; 
-    width: 50%;
-    height: 40px;
+    width: 45%;
+    height: 60px;
 }
 
-h2{
-    background-color: rgba(243, 247, 30, 0.979);
+#title2{
+    background-color: rgba(60, 123, 196, 0.979);
     font-family: black,'Franklin Gothic Medium', sans-serif, bold;
     margin: 0px auto;
     border: 2px rgba(2, 4, 32, 0.979);
     text-align: center; 
-    width: 50%;
-    height: 40px;
+    width: 35%;
+    height: 50px;
 }
 
 body{
@@ -76,6 +76,6 @@ body{
 }
 
 #result-refugee{
-    font-family: rgb(248, 245, 245),'Franklin Gothic Medium', sans-serif, bold;
+    font-family: white,'Franklin Gothic Medium', sans-serif, bold;
     text-align: center;
 }
