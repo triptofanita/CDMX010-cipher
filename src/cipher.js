@@ -1,24 +1,24 @@
-const cipher = {
+window.cipher = {
   // ...
 };
 
-export default cipher;
+  code (offset, string)  {
+    let output =[];
+    let offset = parseInt(offset,10);
 
+    for (let i = 0 ; i < string.length; i ++) {
+    let asciiLetter = string.charCodeAt(i);
+    let stringResult = ((asciiLetter + 65 - offset) % 26 + 65);
+     output[i] = String.fromCharCode(stringResult);
+     };
+  };
 
-output = [];
-
-function encode(string, offset){
-  for (let = i; i = value.length; i ++); {
-    asciiLetter = value.charCodeAt(i); // para devolver el código ASCII del caracter en el índice proporcionado.
-    stringResult= ((AsciiLetter - 65 + offset) % 26) + 65; // devuelve cadena de caracteres con código ASCII
-    output[i]=stringresult
-  }
-}
-
-function decode(offset, string){
-  for (let = i; i = value.length; i ++); {
-    asciiLetter = value.charCodeAt(i); // para devolver el código ASCII del caracter en el índice proporcionado.
-    stringTwoResult= ((AsciiLetter + 65 - offset) % 26) - 65; // devuelve cadena de caracteres con código ASCII
-    outputTwo[i]=stringTwoResult
-  }
-}
+  decode (offset, string) {
+    let output =[];
+    
+    for (let i = 0 ; i < string.length; i ++) {
+     let asciiLetter = string.charCodeAt(i);
+     let stringResult = ((asciiLetter + 65 - offset) % 26 + 65);
+     output[i] = String.fromCharCode(stringResult);
+   };
+  };

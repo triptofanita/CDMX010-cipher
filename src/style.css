@@ -83,7 +83,8 @@ body{
 
 label{
     font-family:'Franklin Gothic Medium', sans-serif, bold;
-    font-size: 120%;   
+    font-size: 120%;  
+    color: white; 
 }
 
 #result-refugee{
