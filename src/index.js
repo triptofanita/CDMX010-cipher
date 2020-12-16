@@ -1,4 +1,4 @@
-import {encode, decode} from './cipher.js'
+import cipher from './cipher.js'
 
 const buttonEncode = document.getElementById('encode')
 const string = document.getElementById('name-refugee')

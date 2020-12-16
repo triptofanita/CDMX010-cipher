@@ -3,12 +3,17 @@
 # Registro de usuarios para campamento de refugiados en zonas de conflicto
 ## Camboya II
 
-[Objetivo] Con el fin de garantizar la protección de datos e identidad de las víctimas en zonas de conflicto, es necesario convertir el nombre de los refugiados a caracteres cifrados, esta estrategia piloto se implementará en el campamento "Camboya II".  También se puede descifrar el nombre del refugiado si es solicitado por un organismo que garantice los derechos y ayuda a la víctima. 
+### Objetivo
+Con el fin de garantizar la protección de datos e identidad de las víctimas en zonas de conflicto, es necesario convertir el nombre de los refugiados a caracteres cifrados, esta estrategia piloto se implementará en el campamento "Camboya II".  También se puede descifrar el nombre del refugiado si es solicitado por un organismo que garantice los derechos y ayuda a la víctima. 
 
-[Descripción] El usuario registra el nombre del refugiado, elige una clave de desplazamiento de caracteres, puede ser un número del 1 al 99,  y obtiene el resultado cifrado. Este ejercicio puede invertirse para tener certeza de la identidad del refugiado, debe realizarse con la misma clave de desplazamiento.
+### Descripción 
+El usuario registra el nombre del refugiado, elige una clave de desplazamiento de caracteres, puede ser un número del 1 al 99,  y obtiene el resultado cifrado. Este ejercicio puede invertirse para tener certeza de la identidad del refugiado, debe realizarse con la misma clave de desplazamiento.
 
+### Usuario
+Este proyecto fue pensado como apoyo a los colaboradores del campamento de refugiados en zona de conflicto, en este caso, "Camboya II". La interfaz se desarrolló en una sóla página que el usuario pudiera verificar su texto de entrada y el resultado del cifrado (desplazamiento positivo y negativo). 
 
-[Usuario] Colaboradores del campamento de refugiados en zona de conflicto, en este caso, "Camboya II".
+### Prototipado 
+![sketch](https://drive.google.com/file/d/1dyvin1jM4fBMGHyOHQy8GOilUrYvSMi9/view?usp=sharing)
 
 ## Índice
 

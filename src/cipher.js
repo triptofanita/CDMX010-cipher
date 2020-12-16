@@ -1,4 +1,4 @@
-window.cipher = {
+const cipher = {
   encode (offset, string)  {
     let output =[];
     offset = parseInt(offset,10);
@@ -12,7 +12,7 @@ window.cipher = {
   }
 };
 
-window.cipher = {
+const cipher = {
  decode (offset, string) {
     let output =[];
     for (let i = 0 ; i < string.length; i ++) {
