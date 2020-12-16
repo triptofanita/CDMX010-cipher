@@ -13,7 +13,13 @@ El usuario registra el nombre del refugiado, elige una clave de desplazamiento d
 Este proyecto fue pensado como apoyo a los colaboradores del campamento de refugiados en zona de conflicto, en este caso, "Camboya II". La interfaz se desarrolló en una sóla página que el usuario pudiera verificar su texto de entrada y el resultado del cifrado (desplazamiento positivo y negativo). 
 
 ### Prototipado 
-![sketch](https://drive.google.com/file/d/1dyvin1jM4fBMGHyOHQy8GOilUrYvSMi9/view?usp=sharing)
+[sketch](https://drive.google.com/file/d/1dyvin1jM4fBMGHyOHQy8GOilUrYvSMi9/view?usp=sharing)
+
+### Instalación 
+1. Clona este proyecto `fork`
+2. Abre la carpeta del proyecto
+3. Instala las dependencias del proyecto `npm install`
+4. Corre la prueba en ambiente loca `npm run dev`
 
 ## Índice
 
