@@ -3,20 +3,27 @@
 # Registro de usuarios para campamento de refugiados en zonas de conflicto
 ## Camboya II
 
-### Objetivo
+### Consideraciones sobre el Cifrado César
+Es un método de desplazamiento y sustitución de caracteres alfabéticos creado y utilizado por el emperados romano Julio César. Consiste en elegir un número para el desplazamiento de las letras o caracteres que forman una oración, por ejemplo: 
+
+*Frase original* _Nodebemosserindiferenteshacialoscrimenesdelesahumanidad_
+*Frase con desplazamiento 8* 
+*Frase con desplazamiento 10*
+
+### Objetivo del proyecto: Registro de usuarios para campamento de refugiados en zonas de conflicto
 Con el fin de garantizar la protección de datos e identidad de las víctimas en zonas de conflicto, es necesario convertir el nombre de los refugiados a caracteres cifrados, esta estrategia piloto se implementará en el campamento "Camboya II".  También se puede descifrar el nombre del refugiado si es solicitado por un organismo que garantice los derechos y ayuda a la víctima. 
 
 ### Descripción 
-El usuario registra el nombre del refugiado, elige una clave de desplazamiento de caracteres, puede ser un número del 1 al 99,  y obtiene el resultado cifrado. Este ejercicio puede invertirse para tener certeza de la identidad del refugiado, debe realizarse con la misma clave de desplazamiento.
+El usuario registra el nombre del refugiado, elige una clave de desplazamiento de caracteres, puede ser un número del 1 al 99,  y obtiene el resultado cifrado. Este ejercicio puede invertirse para tener certeza de la identidad del refugiado, debe realizarse con la misma clave de desplazamiento. Todos los caracteres del texto cifrado o descifrado se mostrarán en mayúsculas, aun, cuando el usuario haya insertado el texto en minúsculas, esto con el fin de unificar el registro de los refugiados. 
 
-### Usuario
+### Usuarios
 Este proyecto fue pensado como apoyo a los colaboradores del campamento de refugiados en zona de conflicto, en este caso, "Camboya II". La interfaz se desarrolló en una sóla página que el usuario pudiera verificar su texto de entrada y el resultado del cifrado (desplazamiento positivo y negativo). 
 
 ### Prototipado 
 [sketch](https://drive.google.com/file/d/1dyvin1jM4fBMGHyOHQy8GOilUrYvSMi9/view?usp=sharing)
 
 ### Instalación 
-1. Clona este proyecto `fork`
+1. Clona este proyecto, realiza un  `fork`
 2. Abre la carpeta del proyecto
 3. Instala las dependencias del proyecto `npm install`
 4. Corre la prueba en ambiente loca `npm run dev`
