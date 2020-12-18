@@ -1,7 +1,9 @@
+
 const cipher = {
   
-  encodeString(string, offset)  {
+  encode(offset, string)  {
     let output = [];
+    let result = "";
     offset = parseInt(offset, 10);
 
     for (let i = 0; i < string.length; i++) {
@@ -9,19 +11,20 @@ const cipher = {
       let stringResult = ((asciiLetter - 65 + offset) % 26 + 65);
       output[i] = String.fromCharCode(stringResult);
     }
-    return output;
-    //document.getElementById('result-refugee').textContent = output.join("");
+    result = output.join("");
+    return result;
   },
 
- decodeString(string, offset) {
+ decode(offset, string) {
     let output = [];
+    let result = "";
     for (let i = 0; i < string.length; i++) {
      let asciiLetter = string.charCodeAt(i);
      let stringResult = ((asciiLetter + 65 - offset) % 26 + 65);
      output[i] = String.fromCharCode(stringResult);
     }
-    return output;
-    //document.getElementById('result-refugee').textContent = output.join("");
+    result = output.join("");
+    return result;
   }
 };
 
