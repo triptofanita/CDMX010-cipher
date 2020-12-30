@@ -1,9 +1,9 @@
-import cipher from './cipher.js'
+import cipher from './cipherprueba1.js'
 
 const buttonEncode = document.getElementById('encode')
 const buttonDecode = document.getElementById('decode')
 
-let output = [] ;
+let output = [];
 
 buttonEncode.addEventListener('click', encodeListener);
     function encodeListener(){

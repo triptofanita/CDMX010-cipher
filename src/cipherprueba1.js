@@ -8,7 +8,7 @@ const cipher = {
       for (let i = 0; i < string.length; i++) {
         let asciiLetter = string.charCodeAt(i);
         //espacio
-        if (asciiLetter == 32) {
+        if (asciiLetter === 32) {
           output[i] = String.fromCharCode(asciiLetter); 
         } else {
           stringResult = ((asciiLetter - 65 + offset) % 26 + 65);
@@ -25,7 +25,7 @@ const cipher = {
       for (let i = 0; i < string.length; i++) {
         let asciiLetter = string.charCodeAt(i);
         //espacio
-        if (asciiLetter == 32) {
+        if (asciiLetter === 32) {
           output[i] = String.fromCharCode(asciiLetter); 
         } else {
           stringResult = ((asciiLetter + 65 - offset) % 26 + 65);
